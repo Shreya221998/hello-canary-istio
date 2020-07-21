@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
- name: first-hello-deployment2
+ name: first-hello-deployment
  labels: 
   app: helloworld
   version: v1
