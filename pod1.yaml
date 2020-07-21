@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: hello-world-1
+ labels:
+  tier: tier1
+spec:
+ containers:
+  - name: hello1
+    image: hello-world-1
