@@ -1,7 +1,7 @@
-apiVersion: apps/v1
+piVersion: apps/v1
 kind: Deployment
 metadata: 
- name: first-hello-deployment
+ name: hello-deployment-1
  labels: 
   app: helloworld
   version: v1
@@ -14,7 +14,7 @@ spec:
     tier: tier1
   spec:
    containers:
-    - name: hello1
+    - name: hello-world-1
       image: hello-world-1
  selector:
   matchLabels:
