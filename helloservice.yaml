@@ -6,5 +6,9 @@ metadata:
   name: helloworld
   app: helloworld
 spec:
+ type: LoadBalancer
+ ports:
+ - port: 80
+   targetPort: 80
  selector:
    app: helloworld
